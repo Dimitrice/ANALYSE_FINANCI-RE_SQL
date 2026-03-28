@@ -32,6 +32,7 @@ ANALYSE_FINANCIÈRE_SQL/
 │   ├── 06_analyse_fraudes_anomalies.sql
 │   ├── analyse_recurences_fraudes.sql
 ├── README.md
+
 ```
 
 ...

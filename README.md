@@ -111,10 +111,11 @@ ANALYSE_FINANCIÈRE_SQL/
 | AC00179 | 6 | 3819,73$  | 10 | 
 
 ### 06 Analyse des anomalies/mouvements suspects
-| Indicateur | Resultats (nombres de transaction suspectes ) |
-| Transaction suspect (loginAttempts > 1) | 122 (4.9% ) |
-| compte détectés plusieurs fois suspect (suspect sur des transactions différentes ) | 11 comptes |
-| compte le plus suspect | AC00272 (3 fois) |
+| Indicateur | Résultats |
+|---|---|
+| Transaction suspect (loginAttempts > 1) | 122 (4,9%) |
+| Comptes détectés plusieurs fois suspects | 11 comptes |
+| Compte le plus suspect | AC00272 (3 fois) |
 
 ...
 

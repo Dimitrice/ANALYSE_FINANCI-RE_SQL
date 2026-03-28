@@ -59,62 +59,62 @@ ANALYSE_FINANCIÈRE_SQL/
 
 ## Analyses réalisées et Résultats
 ### 01. Statistiques générales
-│ type_transaction │ nombre_transaction │ montant_moyen_tra │ transaction_min │ transaction_max │
-│ --- │ --- │ --- │ --- │ --- │
-│ credit │ 568 │ 306,5$ │ 2,03$ │ 1831,02$  │
-│ debit │ 1944 │ 294,99$ │ 0,26$ │ 1919,11$ │
+| type_transaction |nombre_transaction | montant_moyen_tra | transaction_min | transaction_max |
+| --- | --- | --- | --- | --- |
+| credit | 568 |306,5$ | 2,03$ | 1831,02$  |
+| debit | 1944 | 294,99$ | 0,26$ | 1919,11$ |
 
 ### 02. Analyse par canal 
-│ canal_trans │ nombre_transaction │ pourcentage │ montant_moyen_tra │ transaction_max │ transaction_min │
-│ --- │ --- │ --- │ --- │ --- │ --- │
-│ Online │ 811 │ 32,3% │ 297,21$ │ 1831,02$ │ 0,26$ │
-│ ATM │ 833 │ 33,2% │ 307,72$ │ 1919,11$ │ 0,32$ │
-│ Branch │ 868 │ 34,6% │ 288,23$ │ 1664,33$ │ 0,45$ │
+| canal_trans | nombre_transaction | pourcentage | montant_moyen_tra | transaction_max | transaction_min |
+| --- | --- | --- | --- | --- | --- |
+| Online | 811 | 32,3% | 297,21$ | 1831,02$ | 0,26$ |
+| ATM | 833 | 33,2% | 307,72$ | 1919,11$ | 0,32$ |
+| Branch | 868 | 34,6% | 288,23$ | 1664,33$ | 0,45$ |
 
 ### 03. Analyse par profession 
-│ profession │ nombre_transaction │ pourcentage │ montant_moyen_tra │ solde_moyen │
-│ --- │ --- │ --- │ --- │ --- │
-│ Engineer │ 625 │ 24,9% │ 289,04$ │ 5486,41$ │
-│ Doctor │ 631 │ 25,1% │ 292,7$ │ 8978,99$ │
-│ Retired│ 599 │ 23,8% │ 294,53$ │ 4542,16$ │
-│ Student │ 657 │ 26,2% │ 313.22$ │ 1570.21$ │
+| profession | nombre_transaction | pourcentage | montant_moyen_tra | solde_moyen |
+| --- | --- | --- | --- | --- |
+| Engineer | 625 | 24,9% | 289,04$ | 5486,41$ |
+| Doctor | 631 | 25,1% | 292,7$ | 8978,99$ |
+| Retired | 599 | 23,8% | 294,53$ | 4542,16$ |
+| Student | 657 | 26,2% | 313.22$ | 1570.21$ |
 
 ### 04. Evolution mensuelle 
-│ mois │ nombre_transaction │ pourcentage │ volume_tra_total │ montant_moyen_tra │
-│ --- │ --- │ --- │ --- │ --- │
-│ 2023-01 │ 207 │ 8,2% │ 63899,04$ │ 308,69$ │
-│ 2023-02 │ 218 │ 8,7% │ 57516,1$ │ 263,84$ │
-│ 2023-03 │ 197 │ 7,8% │ 61036,12$ │ 309,83$ │
-│ 2023-04 │ 161 │ 6,4% │ 41003,84$ │ 254,68$ │
-│ 2023-05 │ 220 │ 8,8% │ 62868,01$ │ 285,76$ │
-│ 2023-06 │ 212 │ 8,4% │ 61559,58$ │ 290,38$ │
-│ 2023-07 │ 195 │ 7,8% │ 58861,58$ │ 301,85$ │
-│ 2023-08 │ 224 │ 8,9% │ 71437,76$ │ 318,92$ │
-│ 2023-09 │ 214 │ 8,5% │ 72832,25$ │ 340,34$ │
-│ 2023-10 │ 226 │ 9% │ 64705,62$ │ 286,31$ │
-│ 2023-11 │ 221 │ 8,8% │ 66051,13$ │ 298,87$ │
-│ 2023-12 │ 204 │ 8,1% │ 63719,43$ │ 312,35$ │
-│ 2024-01 │ 13 │ 0,5% │ 2065,3$ │ 158,87$ │
+| mois | nombre_transaction | pourcentage | volume_tra_total | montant_moyen_tra |
+| --- | --- | --- | --- | --- |
+| 2023-01 | 207 | 8,2% | 63899,04$ | 308,69$ |
+| 2023-02 | 218 | 8,7% | 57516,1$ | 263,84$ |
+| 2023-03 | 197 | 7,8% | 61036,12$ | 309,83$ |
+│ 2023-04 | 161 | 6,4% | 41003,84$ | 254,68$ |
+| 2023-05 | 220 | 8,8% | 62868,01$ | 285,76$ |
+| 2023-06 | 212 | 8,4% | 61559,58$ | 290,38$ |
+| 2023-07 | 195 | 7,8% | 58861,58$ | 301,85$ |
+| 2023-08 | 224 | 8,9% | 71437,76$ | 318,92$ |
+| 2023-09 | 214 | 8,5% | 72832,25$ | 340,34$ |
+| 2023-10 | 226 | 9% | 64705,62$ | 286,31$ |
+| 2023-11 | 221 | 8,8% | 66051,13$ | 298,87$ |
+| 2023-12 | 204 | 8,1% | 63719,43$ | 312,35$ |
+| 2024-01 | 13 | 0,5% | 2065,3$ | 158,87$ |
 
 ### 05 Classement du TOP 10 des comptes les plus actifs 
-│ accountid │ nombre_transaction │ volume_tra_total  │ classement │ 
-│ --- │ --- │ --- │ --- │
-│ AC00460 │ 12 │ 5570,34$  │ 1 │ 
-│ AC00363 │ 12 │ 4702,91$  │ 2 │ 
-│ AC00337 │ 8 │ 4393,41$  │ 3 │ 
-│ AC00021 │ 8 │ 4263,34$  │ 4 │ 
-│ AC00439 │ 9 │ 4185,81$  │ 5 │ 
-│ AC00385 │ 7 │ 4141,2$  │ 6 │ 
-│ AC00071 │ 8 │ 4050,12$  │ 7 │ 
-│ AC00265 │ 9 │ 3953,6$  │ 8 │ 
-│ AC00136 │ 8 │ 3880,53$  │ 9 │ 
-│ AC00179 │ 6 │ 3819,73$  │ 10 │ 
+| accountid | nombre_transaction | volume_tra_total  | classement |
+| --- | --- | --- | --- |
+| AC00460 | 12 | 5570,34$  | 1 | 
+| AC00363 | 12 | 4702,91$  | 2 | 
+| AC00337 | 8 | 4393,41$  | 3 | 
+| AC00021 | 8 | 4263,34$  | 4 | 
+| AC00439 | 9 | 4185,81$  | 5 | 
+| AC00385 | 7 | 4141,2$  | 6 | 
+| AC00071 | 8 | 4050,12$  | 7 | 
+| AC00265 | 9 | 3953,6$  | 8 | 
+| AC00136 | 8 | 3880,53$  | 9 | 
+| AC00179 | 6 | 3819,73$  | 10 | 
 
 ### 06 Analyse des anomalies/mouvements suspects
-│ Indicateur │ Resultats (nombres de transaction suspectes ) │
-│ Transaction suspect (loginAttempts > 1) │ 122 (4.9% ) │
-│ compte détectés plusieurs fois suspect(suspect sur des transactions différentes )│ 11 comptes │
-│ compte le plus suspect │ AC00272(3 fois) │
+| Indicateur | Resultats (nombres de transaction suspectes ) |
+| Transaction suspect (loginAttempts > 1) | 122 (4.9% ) |
+| compte détectés plusieurs fois suspect(suspect sur des transactions différentes )| 11 comptes |
+| compte le plus suspect | AC00272(3 fois) |
 
 ...
 

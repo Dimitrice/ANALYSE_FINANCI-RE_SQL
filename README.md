@@ -18,7 +18,7 @@ Analyser un dataset de ** 2512 transactions bancaires** pour:
 ---
 
 ## Structure du projet
-''' 
+```
 ANALYSE_FINANCIÈRE_SQL/
 |
 ├── capture_ecran
@@ -32,49 +32,49 @@ ANALYSE_FINANCIÈRE_SQL/
 │   ├── 06_analyse_fraudes_anomalies.sql
 │   ├── analyse_recurences_fraudes.sql
 ├── README.md
-'''
+```
 
 ---
 
-## Description du dataset:
+## Description du dataset: 
 │ colonne │ description │
-│---│---│
-│`TransactionID`│ identifiant unique de la transaction │
-│`AccountID`│ identifiant du compte client │
-│`TransactionAmount`│ montant de la transaction en dollar │
-│`TransactionDate`│  Horodatage de chaque transaction, capture de la date et de l’heure │
-│`TransactionType`│  champ catégoriel indiquant les transactions: Debit / Credit  │
-│`Location`│  Emplacement géographique de la transaction, représenté par les noms des villes américaines │
-│`DeviceID`│ Identifiant alphanumérique pour les appareils utilisés pour effectuer la transaction │
-│`IP Address`│ Adresse IPv4 associée à la transaction, avec des changements occasionnels pour certains comptes │
-│`MerchantID`│ Identifiant unique pour les commerçants, affichant les commerçants préférés et les valeurs aberrantes pour chaque compte │
-│`AccountBalance`│ Solde du compte après transaction, avec des corrélations logiques basées sur le type de transaction et le montant │
-│`PreviousTransactionDate`│ Horodatage de la dernière transaction du compte, aidant à calculer la fréquence des transactions. │
-│`Channel`│ Canal par lequel la transaction a été effectuée:ATM / Online / Branch  │
-│`CustomerAge`│ Âge du titulaire du compte, avec des regroupements logiques selon la profession │
-│`CustomerOccupation`│ Profession du titulaire du compte: Doctor / Student /,  Engineer / Retired, reflétant les tendances de revenus │
-│`TransactionDuration`│ Durée de la transaction en secondes, variant selon le type de transaction │
-│`LoginAttempts`│ Nombre de tentatives de connexion avant la transaction, avec des valeurs plus élevées indiquant des anomalies potentielles  │
+│ --- │ --- │
+│ `TransactionID` │ identifiant unique de la transaction │
+│ `AccountID` │ identifiant du compte client │
+│ `TransactionAmount` │ montant de la transaction en dollar │
+│ `TransactionDate` │  Horodatage de chaque transaction, capture de la date et de l’heure │
+│ `TransactionType` │  champ catégoriel indiquant les transactions: Debit / Credit  │
+│ `Location` │  Emplacement géographique de la transaction, représenté par les noms des villes américaines │
+│ `DeviceID` │ Identifiant alphanumérique pour les appareils utilisés pour effectuer la transaction │
+│ `IP Address` │ Adresse IPv4 associée à la transaction, avec des changements occasionnels pour certains comptes │
+│ `MerchantID`│ Identifiant unique pour les commerçants, affichant les commerçants préférés et les valeurs aberrantes pour chaque compte │
+│ `AccountBalance` │ Solde du compte après transaction, avec des corrélations logiques basées sur le type de transaction et le montant │
+│ `PreviousTransactionDate` │ Horodatage de la dernière transaction du compte, aidant à calculer la fréquence des transactions. │
+│ `Channel` │ Canal par lequel la transaction a été effectuée:ATM / Online / Branch  │
+│ `CustomerAge` │ Âge du titulaire du compte, avec des regroupements logiques selon la profession │
+│ `CustomerOccupation` │ Profession du titulaire du compte: Doctor / Student /,  Engineer / Retired, reflétant les tendances de revenus │
+│ `TransactionDuration` │ Durée de la transaction en secondes, variant selon le type de transaction │
+│ `LoginAttempts` │ Nombre de tentatives de connexion avant la transaction, avec des valeurs plus élevées indiquant des anomalies potentielles  │
 
 ---
 
 ## Analyses réalisées et Résultats
 ### 01. Statistiques générales
 │ type_transaction │ nombre_transaction │ montant_moyen_tra │ transaction_min │ transaction_max │
-│---│---│---│---│---│
-│ credit │ 568│ 306,5$│ 2,03$│ 1831,02$  │
+│ --- │ --- │ --- │ --- │ --- │
+│ credit │ 568 │ 306,5$ │ 2,03$ │ 1831,02$  │
 │ debit │ 1944 │ 294,99$ │ 0,26$ │ 1919,11$ │
 
 ### 02. Analyse par canal 
 │ canal_trans │ nombre_transaction │ pourcentage │ montant_moyen_tra │ transaction_max │ transaction_min │
-│---│---│---│---│---│---│
+│ --- │ --- │ --- │ --- │ --- │ --- │
 │ Online │ 811 │ 32,3% │ 297,21$ │ 1831,02$ │ 0,26$ │
 │ ATM │ 833 │ 33,2% │ 307,72$ │ 1919,11$ │ 0,32$ │
-│ Branch│ 868 │ 34,6% │ 288,23$ │ 1664,33$ │ 0,45$ │
+│ Branch │ 868 │ 34,6% │ 288,23$ │ 1664,33$ │ 0,45$ │
 
 ### 03. Analyse par profession 
 │ profession │ nombre_transaction │ pourcentage │ montant_moyen_tra │ solde_moyen │
-│---│---│---│---│---│
+│ --- │ --- │ --- │ --- │ --- │
 │ Engineer │ 625 │ 24,9% │ 289,04$ │ 5486,41$ │
 │ Doctor │ 631 │ 25,1% │ 292,7$ │ 8978,99$ │
 │ Retired│ 599 │ 23,8% │ 294,53$ │ 4542,16$ │
@@ -82,7 +82,7 @@ ANALYSE_FINANCIÈRE_SQL/
 
 ### 04. Evolution mensuelle 
 │ mois │ nombre_transaction │ pourcentage │ volume_tra_total │ montant_moyen_tra │
-│---│---│---│---│---│
+│ --- │ --- │ --- │ --- │ --- │
 │ 2023-01 │ 207 │ 8,2% │ 63899,04$ │ 308,69$ │
 │ 2023-02 │ 218 │ 8,7% │ 57516,1$ │ 263,84$ │
 │ 2023-03 │ 197 │ 7,8% │ 61036,12$ │ 309,83$ │
@@ -98,8 +98,8 @@ ANALYSE_FINANCIÈRE_SQL/
 │ 2024-01 │ 13 │ 0,5% │ 2065,3$ │ 158,87$ │
 
 ### 05 Classement du TOP 10 des comptes les plus actifs 
-│ accountid│ nombre_transaction │ volume_tra_total  │ classement │ 
-│---│---│---│---│
+│ accountid │ nombre_transaction │ volume_tra_total  │ classement │ 
+│ --- │ --- │ --- │ --- │
 │ AC00460 │ 12 │ 5570,34$  │ 1 │ 
 │ AC00363 │ 12 │ 4702,91$  │ 2 │ 
 │ AC00337 │ 8 │ 4393,41$  │ 3 │ 

@@ -38,24 +38,22 @@ ANALYSE_FINANCIÈRE_SQL/
 ...
 
 ## Description du dataset: 
-│ colonne │ description │
-│ --- │ --- │
-│ `TransactionID` │ identifiant unique de la transaction │
-│ `AccountID` │ identifiant du compte client │
-│ `TransactionAmount` │ montant de la transaction en dollar │
-│ `TransactionDate` │  Horodatage de chaque transaction, capture de la date et de l’heure │
-│ `TransactionType` │  champ catégoriel indiquant les transactions: Debit / Credit  │
-│ `Location` │  Emplacement géographique de la transaction, représenté par les noms des villes américaines │
-│ `DeviceID` │ Identifiant alphanumérique pour les appareils utilisés pour effectuer la transaction │
-│ `IP Address` │ Adresse IPv4 associée à la transaction, avec des changements occasionnels pour certains comptes │
-│ `MerchantID`│ Identifiant unique pour les commerçants, affichant les commerçants préférés et les valeurs aberrantes pour chaque compte │
-│ `AccountBalance` │ Solde du compte après transaction, avec des corrélations logiques basées sur le type de transaction et le montant │
-│ `PreviousTransactionDate` │ Horodatage de la dernière transaction du compte, aidant à calculer la fréquence des transactions. │
-│ `Channel` │ Canal par lequel la transaction a été effectuée:ATM / Online / Branch  │
-│ `CustomerAge` │ Âge du titulaire du compte, avec des regroupements logiques selon la profession │
-│ `CustomerOccupation` │ Profession du titulaire du compte: Doctor / Student /,  Engineer / Retired, reflétant les tendances de revenus │
-│ `TransactionDuration` │ Durée de la transaction en secondes, variant selon le type de transaction │
-│ `LoginAttempts` │ Nombre de tentatives de connexion avant la transaction, avec des valeurs plus élevées indiquant des anomalies potentielles  │
+- **TransactionID**: identifiant unique de la transaction 
+- **AccountID** : identifiant du compte client 
+- **TransactionAmount**:  montant de la transaction en dollar 
+- **TransactionDate** :  Horodatage de chaque transaction, capture de la date et de l’heure 
+- **TransactionType** :  champ catégoriel indiquant les transactions: Debit / Credit  
+- **Location** :  Emplacement géographique de la transaction, représenté par les noms des villes américaines 
+- **DeviceID** : Identifiant alphanumérique pour les appareils utilisés pour effectuer la transaction 
+- **IP Address** : Adresse IPv4 associée à la transaction, avec des changements occasionnels pour certains comptes 
+- **MerchantID** : Identifiant unique pour les commerçants, affichant les commerçants préférés et les valeurs aberrantes pour chaque compte 
+- **AccountBalance** : Solde du compte après transaction, avec des corrélations logiques basées sur le type de transaction et le montant 
+- **PreviousTransactionDate** : Horodatage de la dernière transaction du compte, aidant à calculer la fréquence des transactions. 
+- **Channel** : Canal par lequel la transaction a été effectuée:ATM / Online / Branch  
+- **CustomerAge** : Âge du titulaire du compte, avec des regroupements logiques selon la profession 
+- **CustomerOccupation** : Profession du titulaire du compte: Doctor / Student /,  Engineer / Retired, reflétant les tendances de revenus 
+- **TransactionDuration** : Durée de la transaction en secondes, variant selon le type de transaction 
+- **LoginAttempts** : Nombre de tentatives de connexion avant la transaction, avec des valeurs plus élevées indiquant des anomalies potentielles  
 
 ...
 

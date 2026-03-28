@@ -34,7 +34,7 @@ ANALYSE_FINANCIÈRE_SQL/
 ├── README.md
 ```
 
----
+...
 
 ## Description du dataset: 
 │ colonne │ description │
@@ -56,7 +56,7 @@ ANALYSE_FINANCIÈRE_SQL/
 │ `TransactionDuration` │ Durée de la transaction en secondes, variant selon le type de transaction │
 │ `LoginAttempts` │ Nombre de tentatives de connexion avant la transaction, avec des valeurs plus élevées indiquant des anomalies potentielles  │
 
----
+...
 
 ## Analyses réalisées et Résultats
 ### 01. Statistiques générales
@@ -117,7 +117,7 @@ ANALYSE_FINANCIÈRE_SQL/
 │ compte détectés plusieurs fois suspect(suspect sur des transactions différentes )│ 11 comptes │
 │ compte le plus suspect │ AC00272(3 fois) │
 
----
+...
 
 ### Insights 
 1- les **Debits représentent 77%** des transactions (1944/2512) mais le montant moyen des transactions est légèrement élevé pour les **Crédits**(306$ vs 295$)

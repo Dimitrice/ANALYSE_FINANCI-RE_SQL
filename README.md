@@ -113,7 +113,7 @@ ANALYSE_FINANCIÈRE_SQL/
 ### 06 Analyse des anomalies/mouvements suspects
 | Indicateur | Resultats (nombres de transaction suspectes ) |
 | Transaction suspect (loginAttempts > 1) | 122 (4.9% ) |
-| compte détectés plusieurs fois suspect(suspect sur des transactions différentes )| 11 comptes |
+| compte détectés plusieurs fois suspect(suspect sur des transactions différentes ) | 11 comptes |
 | compte le plus suspect | AC00272(3 fois) |
 
 ...

@@ -1,11 +1,11 @@
 # Analyse des transactions bancaires avec Sql 
 ## Objectif du projet :
 Analyser un dataset de ** 2512 transactions bancaires** pour:
--comparer les types de transactions (debit/credit)
--pour identifier le comportement des clients selon leur profil
--comparer les canaux de transaction(Onligne, Branch, ATM)
--suivre l'évolution mensuelle des flux financiers 
--détecter les transactions potentiellement suspect et identifier les comptes les plus récurents
+- comparer les types de transactions (debit/credit)
+- pour identifier le comportement des clients selon leur profil
+- comparer les canaux de transaction(Onligne, Branch, ATM)
+- suivre l'évolution mensuelle des flux financiers 
+- détecter les transactions potentiellement suspect et identifier les comptes les plus récurents
 
 ---
 
@@ -13,7 +13,7 @@ Analyser un dataset de ** 2512 transactions bancaires** pour:
 - Base relationnelle : **MySQL**
 - Interface de gestion et exécution des requêtes: **Dbeaver**
 - Editeur de code: **VScode** 
-- Dataset: Bank [Transactions Dataset](https://www.kaggle.com)
+- Dataset: Bank Transactions Dataset(https://www.kaggle.com)
 
 ---
 

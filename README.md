@@ -128,7 +128,7 @@ ANALYSE_FINANCIÈRE_SQL/
 - **Octobre 2023** est le moi où il y a plus de transaction
 - le **Compte AC00460** est le compte le plus actif avec **12 transactions**, pour un volume total de 5570$. ce montant est presque deux fois supérieur à celui du 10eme le plus actif, dont le volume total de transaction est de 3819$. 
 - **122 transactions suspectes** détectées soit 4.9% des transactions. la transaction suspecte **TX0089** éffectuée dans la ville de **San Diego** detient la somme la plus élevée soit : 1531.31$
-1- **11 comptes**  ont été désignés suspects au cours de plusieurs transactions. le compte **AC00272** est le cas le plus préocupent car il a été **désigné trois fois comme suspect**. 
+- **11 comptes**  ont été désignés suspects au cours de plusieurs transactions. le compte **AC00272** est le cas le plus préocupent car il a été **désigné trois fois comme suspect**. 
 
 
 ## Auteur : Dimitrice Wabo 

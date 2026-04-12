@@ -120,15 +120,15 @@ ANALYSE_FINANCIÈRE_SQL/
 ...
 
 ### Insights 
-1- les **Debits représentent 77%** des transactions (1944/2512) mais le montant moyen des transactions est légèrement élevé pour les **Crédits**(306$ vs 295$)
-2- les canaux sont relativement équilibrés autour de (32-34%) des transactions, mais cependant, le montant moyen des transactions généré par l'*ATM* est de 307,72$ tandis que *Branch* dont le pourcentage de transactions est le plus élevé a généré un montant moyen plus bas que les autres soit: 288.23$
-3- les **Etudiants** font le plus de transaction avec un montant moyen plus élevé soit (313$) mais cependant ils ont le solde moyen le plus bas
-4- les **Docteurs** ont le solde moyen le plus élevé
-5- **Septembre** est le mois où le volume de transaction est le plus élevé : 72832 avec le montant moyen le plus élevé, 
-7- **Octobre 2023** est le moi où il y a plus de transaction
-8- le **Compte AC00460** est le compte le plus actif avec **12 transactions**, pour un volume total de 5570$. ce montant est presque deux fois supérieur à celui du 10eme le plus actif, dont le volume total de transaction est de 3819$. 
-9- **122 transactions suspectes** détectées soit 4.9% des transactions. la transaction suspecte **TX0089** éffectuée dans la ville de **San Diego** detient la somme la plus élevée soit : 1531.31$
-10- **11 comptes**  ont été désignés suspects au cours de plusieurs transactions. le compte **AC00272** est le cas le plus préocupent car il a été **désigné trois fois comme suspect**. 
+- les **Debits représentent 77%** des transactions (1944/2512) mais le montant moyen des transactions est légèrement élevé pour les **Crédits**(306$ vs 295$)
+- les canaux sont relativement équilibrés autour de (32-34%) des transactions, mais cependant, le montant moyen des transactions généré par l'*ATM* est de 307,72$ tandis que *Branch* dont le pourcentage de transactions est le plus élevé a généré un montant moyen plus bas que les autres soit: 288.23$
+- les **Etudiants** font le plus de transaction avec un montant moyen plus élevé soit (313$) mais cependant ils ont le solde moyen le plus bas
+- les **Docteurs** ont le solde moyen le plus élevé
+- **Septembre** est le mois où le volume de transaction est le plus élevé : 72832 avec le montant moyen le plus élevé, 
+- **Octobre 2023** est le moi où il y a plus de transaction
+- le **Compte AC00460** est le compte le plus actif avec **12 transactions**, pour un volume total de 5570$. ce montant est presque deux fois supérieur à celui du 10eme le plus actif, dont le volume total de transaction est de 3819$. 
+- **122 transactions suspectes** détectées soit 4.9% des transactions. la transaction suspecte **TX0089** éffectuée dans la ville de **San Diego** detient la somme la plus élevée soit : 1531.31$
+1- **11 comptes**  ont été désignés suspects au cours de plusieurs transactions. le compte **AC00272** est le cas le plus préocupent car il a été **désigné trois fois comme suspect**. 
 
 
 ## Auteur : Dimitrice Wabo 
